@@ -1,0 +1,109 @@
+[22-May-2024 15:39:53 America/Boise] PHP Warning:  require_once(/home4/zhufapmy/public_html/internships/internshipPortal/public/../bootstrap/app.php): Failed to open stream: No such file or directory in /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php on line 47
+[22-May-2024 15:39:53 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/zhufapmy/public_html/internships/internshipPortal/public/../bootstrap/app.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php on line 47
+[22-May-2024 15:39:59 America/Boise] PHP Warning:  require_once(/home4/zhufapmy/public_html/internships/internshipPortal/public/../bootstrap/app.php): Failed to open stream: No such file or directory in /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php on line 47
+[22-May-2024 15:39:59 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/zhufapmy/public_html/internships/internshipPortal/public/../bootstrap/app.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php on line 47
+[22-May-2024 15:40:04 America/Boise] PHP Warning:  require_once(/home4/zhufapmy/public_html/internships/internshipPortal/public/../bootstrap/app.php): Failed to open stream: No such file or directory in /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php on line 47
+[22-May-2024 15:40:04 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/zhufapmy/public_html/internships/internshipPortal/public/../bootstrap/app.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php on line 47
+[22-May-2024 15:40:04 America/Boise] PHP Warning:  require_once(/home4/zhufapmy/public_html/internships/internshipPortal/public/../bootstrap/app.php): Failed to open stream: No such file or directory in /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php on line 47
+[22-May-2024 15:40:04 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/zhufapmy/public_html/internships/internshipPortal/public/../bootstrap/app.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php on line 47
+[22-May-2024 15:40:08 America/Boise] PHP Warning:  require_once(/home4/zhufapmy/public_html/internships/internshipPortal/public/../bootstrap/app.php): Failed to open stream: No such file or directory in /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php on line 47
+[22-May-2024 15:40:08 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/zhufapmy/public_html/internships/internshipPortal/public/../bootstrap/app.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php on line 47
+[22-May-2024 15:40:21 America/Boise] PHP Warning:  require_once(/home4/zhufapmy/public_html/internships/internshipPortal/public/../bootstrap/app.php): Failed to open stream: No such file or directory in /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php on line 47
+[22-May-2024 15:40:21 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/zhufapmy/public_html/internships/internshipPortal/public/../bootstrap/app.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php on line 47
+[22-May-2024 15:40:25 America/Boise] PHP Warning:  require_once(/home4/zhufapmy/public_html/internships/internshipPortal/public/../bootstrap/app.php): Failed to open stream: No such file or directory in /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php on line 47
+[22-May-2024 15:40:25 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/zhufapmy/public_html/internships/internshipPortal/public/../bootstrap/app.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php on line 47
+[22-May-2024 15:40:59 America/Boise] PHP Warning:  require_once(/home4/zhufapmy/public_html/internships/internshipPortal/public/../bootstrap/app.php): Failed to open stream: No such file or directory in /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php on line 47
+[22-May-2024 15:40:59 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/zhufapmy/public_html/internships/internshipPortal/public/../bootstrap/app.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php on line 47
+[22-May-2024 15:41:00 America/Boise] PHP Warning:  require_once(/home4/zhufapmy/public_html/internships/internshipPortal/public/../bootstrap/app.php): Failed to open stream: No such file or directory in /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php on line 47
+[22-May-2024 15:41:00 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/zhufapmy/public_html/internships/internshipPortal/public/../bootstrap/app.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php:47
+Stack trace:
+#0 {main}
+  thrown in /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php on line 47
+[22-May-2024 15:58:44 America/Boise] PHP Warning:  require(/home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/../symfony/polyfill-intl-normalizer/bootstrap.php): Failed to open stream: No such file or directory in /home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/autoload_real.php on line 78
+[22-May-2024 15:58:44 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/../symfony/polyfill-intl-normalizer/bootstrap.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/autoload_real.php:78
+Stack trace:
+#0 /home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/autoload_real.php(61): composerRequire4529c9bc4b36387925811602ee542b5f('e69f7f6ee287b96...', '/home4/zhufapmy...')
+#1 /home4/zhufapmy/public_html/internships/internshipPortal/vendor/autoload.php(7): ComposerAutoloaderInit4529c9bc4b36387925811602ee542b5f::getLoader()
+#2 /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php(34): require('/home4/zhufapmy...')
+#3 {main}
+  thrown in /home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/autoload_real.php on line 78
+[22-May-2024 15:58:45 America/Boise] PHP Warning:  require(/home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/../symfony/polyfill-intl-normalizer/bootstrap.php): Failed to open stream: No such file or directory in /home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/autoload_real.php on line 78
+[22-May-2024 15:58:45 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/../symfony/polyfill-intl-normalizer/bootstrap.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/autoload_real.php:78
+Stack trace:
+#0 /home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/autoload_real.php(61): composerRequire4529c9bc4b36387925811602ee542b5f('e69f7f6ee287b96...', '/home4/zhufapmy...')
+#1 /home4/zhufapmy/public_html/internships/internshipPortal/vendor/autoload.php(7): ComposerAutoloaderInit4529c9bc4b36387925811602ee542b5f::getLoader()
+#2 /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php(34): require('/home4/zhufapmy...')
+#3 {main}
+  thrown in /home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/autoload_real.php on line 78
+[22-May-2024 15:58:50 America/Boise] PHP Warning:  require(/home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/../symfony/polyfill-intl-normalizer/bootstrap.php): Failed to open stream: No such file or directory in /home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/autoload_real.php on line 78
+[22-May-2024 15:58:50 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/../symfony/polyfill-intl-normalizer/bootstrap.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/autoload_real.php:78
+Stack trace:
+#0 /home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/autoload_real.php(61): composerRequire4529c9bc4b36387925811602ee542b5f('e69f7f6ee287b96...', '/home4/zhufapmy...')
+#1 /home4/zhufapmy/public_html/internships/internshipPortal/vendor/autoload.php(7): ComposerAutoloaderInit4529c9bc4b36387925811602ee542b5f::getLoader()
+#2 /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php(34): require('/home4/zhufapmy...')
+#3 {main}
+  thrown in /home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/autoload_real.php on line 78
+[22-May-2024 15:58:51 America/Boise] PHP Warning:  require(/home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/../symfony/polyfill-intl-normalizer/bootstrap.php): Failed to open stream: No such file or directory in /home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/autoload_real.php on line 78
+[22-May-2024 15:58:51 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/../symfony/polyfill-intl-normalizer/bootstrap.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/autoload_real.php:78
+Stack trace:
+#0 /home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/autoload_real.php(61): composerRequire4529c9bc4b36387925811602ee542b5f('e69f7f6ee287b96...', '/home4/zhufapmy...')
+#1 /home4/zhufapmy/public_html/internships/internshipPortal/vendor/autoload.php(7): ComposerAutoloaderInit4529c9bc4b36387925811602ee542b5f::getLoader()
+#2 /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php(34): require('/home4/zhufapmy...')
+#3 {main}
+  thrown in /home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/autoload_real.php on line 78
+[22-May-2024 16:22:11 America/Boise] PHP Warning:  require(/home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/autoload_real.php on line 78
+[22-May-2024 16:22:11 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/autoload_real.php:78
+Stack trace:
+#0 /home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/autoload_real.php(61): composerRequire4529c9bc4b36387925811602ee542b5f('667aeda72477189...', '/home4/zhufapmy...')
+#1 /home4/zhufapmy/public_html/internships/internshipPortal/vendor/autoload.php(7): ComposerAutoloaderInit4529c9bc4b36387925811602ee542b5f::getLoader()
+#2 /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php(34): require('/home4/zhufapmy...')
+#3 {main}
+  thrown in /home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/autoload_real.php on line 78
+[22-May-2024 16:22:12 America/Boise] PHP Warning:  require(/home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/autoload_real.php on line 78
+[22-May-2024 16:22:12 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/autoload_real.php:78
+Stack trace:
+#0 /home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/autoload_real.php(61): composerRequire4529c9bc4b36387925811602ee542b5f('667aeda72477189...', '/home4/zhufapmy...')
+#1 /home4/zhufapmy/public_html/internships/internshipPortal/vendor/autoload.php(7): ComposerAutoloaderInit4529c9bc4b36387925811602ee542b5f::getLoader()
+#2 /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php(34): require('/home4/zhufapmy...')
+#3 {main}
+  thrown in /home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/autoload_real.php on line 78
+[22-May-2024 16:28:35 America/Boise] PHP Warning:  require(/home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/autoload_real.php on line 78
+[22-May-2024 16:28:35 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/autoload_real.php:78
+Stack trace:
+#0 /home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/autoload_real.php(61): composerRequire4529c9bc4b36387925811602ee542b5f('667aeda72477189...', '/home4/zhufapmy...')
+#1 /home4/zhufapmy/public_html/internships/internshipPortal/vendor/autoload.php(7): ComposerAutoloaderInit4529c9bc4b36387925811602ee542b5f::getLoader()
+#2 /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php(34): require('/home4/zhufapmy...')
+#3 {main}
+  thrown in /home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/autoload_real.php on line 78
+[22-May-2024 16:32:51 America/Boise] PHP Warning:  require(/home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php): Failed to open stream: No such file or directory in /home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/autoload_real.php on line 78
+[22-May-2024 16:32:51 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/../symfony/var-dumper/Resources/functions/dump.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/autoload_real.php:78
+Stack trace:
+#0 /home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/autoload_real.php(61): composerRequire4529c9bc4b36387925811602ee542b5f('667aeda72477189...', '/home4/zhufapmy...')
+#1 /home4/zhufapmy/public_html/internships/internshipPortal/vendor/autoload.php(7): ComposerAutoloaderInit4529c9bc4b36387925811602ee542b5f::getLoader()
+#2 /home4/zhufapmy/public_html/internships/internshipPortal/public/index.php(34): require('/home4/zhufapmy...')
+#3 {main}
+  thrown in /home4/zhufapmy/public_html/internships/internshipPortal/vendor/composer/autoload_real.php on line 78

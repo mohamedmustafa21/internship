@@ -1,0 +1,93 @@
+<?php
+
+namespace App\Exports;
+
+use App\Models\Intern;
+use Illuminate\Support\Collection;
+use Maatwebsite\Excel\Concerns\FromCollection;
+use Maatwebsite\Excel\Concerns\WithHeadings;
+use Maatwebsite\Excel\Concerns\WithMapping;
+use Illuminate\Support\Facades\Storage;
+
+
+class InternExport implements FromCollection, WithHeadings, WithMapping
+{
+    /**
+    * @return \Illuminate\Support\Collection
+    */
+    public function collection()
+    {
+        return Intern::whereYear('created_at', 2024)->get();
+    }
+
+    public function headings(): array
+    {
+        // return an array of headings
+        return [
+                'Preferred Industry',
+                'Preferred Training Field',
+                'Name',
+                'Birthdate',
+                'Email',
+                'Mobile',
+                'City',
+                'Address',
+                'University',
+                'Bachelor Degree',
+                'Graduation Year',
+                'Grade',
+                'Major',
+                'What makes you best candidate',
+                'Source',
+                'Referral',
+                'ID Card',
+                'Certificate',
+                'Training Info',
+                'AutoCAD Rating',
+                'Solid Rating',
+                '10th of ramadan training',
+                'ain sokhna training'];
+    }
+
+    public function map($intern): array
+    {
+        // return an array of values to be mapped to columns
+        $fileUrl = url('assets/'.$intern->grade_certificate);
+        $id_fileUrl = url('assets/'.$intern->student_id_card);
+
+        $the_10th_of_ramadan = $intern->training_10th_of_Ramadan == 'I Agree' ? 'I Agree Training in 10th of Ramadan' : 'Don\'t Agree';
+        $ain_sokhna = $intern->training_ain_sokhna == 'I Agree' ? 'I Agree Training in 10th of Ramadan' : 'Don\'t Agree';
+        return [
+            $intern->preferred_industry,
+            $intern->preferred_training_field,
+            $intern->full_name,
+            $intern->birthdate,
+            $intern->email,
+            $intern->mobile,
+            $intern->city,
+            $intern->address,
+            $intern->university,
+            $intern->bachelor_degree,
+            $intern->graduation_year,
+            $intern->grade,
+            $intern->major,
+            $intern->intern_opinion,
+            $intern->source,
+            $intern->referral_name,
+            $id_fileUrl,
+            $fileUrl,
+            $intern->training_info,
+            $intern->autocade,
+            $intern->solidwork,
+
+            // $intern->language1,
+            // $intern->language1_rating,
+            // $intern->language2,
+            // $intern->language2_rating,
+            $the_10th_of_ramadan,
+            $ain_sokhna,
+
+
+        ];
+    }
+}
