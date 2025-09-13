@@ -32,9 +32,9 @@
     </head>
     <body>
         <!-- Navigation Bar -->
-        
 
-    
+
+
     <header>
         <nav class="navbar">
             <div class="logo">
@@ -84,7 +84,7 @@
             </ul>
         </div>
     </header>
-    
+
     <style>
         @media  only screen and (min-width: 600px) {
    #hamburger{
@@ -266,7 +266,7 @@
     }
     }
     </style>
-    
+
     <!-- ✅ CSS -->
     <style>
 
@@ -372,7 +372,7 @@
 
 
     <!-- side menu start -->
-        
+
         <!-- side menu end -->
 
 
@@ -388,7 +388,7 @@
             <img src="<?php echo e(asset('assets/img/wlogo-1.png')); ?>" style="display: block;width: 60%;margin: 0 auto;" height="80" alt="Logo">
         </div>
         <div class="modal-body">
-            <form method="POST" action="<?php echo e(route('processLogin')); ?>">
+            <form method="POST" action="<?php echo e(route('site.login.submit')); ?>">
                 <?php echo csrf_field(); ?>
                 <div class="mb-3">
                     <label for="email" class="form-label">Email address</label>

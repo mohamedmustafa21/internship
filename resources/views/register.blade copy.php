@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- Bootstrap 5 CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" crossorigin="anonymous">
     <!-- jQuery and Bootstrap 5 JavaScript -->
@@ -57,12 +57,12 @@
         <img src="{{ asset('assets/img/logo-1.png') }}" style="display: block;width: 60%;margin: 0 auto;" height="80" alt="Logo">
       </div>
       <div class="modal-body">
-        <form id="reg" method="POST" action="{{ route('processLogin') }}">
+        <form id="reg" method="POST" action="{{ route('site.login.submit') }}">
             @csrf
             <div class="mb-3">
                 <label for="email" class="form-label">Email address</label>
                 <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
-                
+
 
                 @error('email')
                 <div class="alert alert-danger">{{ $message }}</div>
@@ -401,7 +401,7 @@
                         <div class="col-md-6">
                             <select id="source" class="form-control @error('source') is-invalid @enderror" name="source" required>
                                 <option value="">--Select--</option>
-                                
+
                                 <option value="Company Website">Company's Website</option>
                                 <option value="Linkedin">LinkedIn</option>
                                 <option value="Facebook">Facebook</option>
@@ -425,7 +425,7 @@
                                     </span>
                                 @enderror
                             </div>
-                            
+
                             <div id="referral-container" class="mt-3 d-none">
                                 <label for="referral_position" class="form-label">{{ __('Referral Position') }}</label>
                                 <input id="referral_position" type="text" class="form-control @error('referral') is-invalid @enderror" name="referral" value="{{ old('referral') }}">
@@ -436,7 +436,7 @@
                                     </span>
                                 @enderror
                             </div>
-                            
+
                             <div id="referral-container" class="mt-3 d-none">
                                 <label for="referral_company" class="form-label">{{ __('Referral Company') }}</label>
                                 <input id="referral_company" type="text" class="form-control @error('referral') is-invalid @enderror" name="referral" value="{{ old('referral') }}">
@@ -485,9 +485,9 @@
                             @enderror
 
                             <div id="referral-container" class="mt-3 d-none">
-                                
+
                             <input id="referralhidden" type="hidden" class="form-control @error('referral') is-invalid @enderror" name="referral" value="{{ old('referral') }}">
-                                
+
                                 <label for="referral" class="form-label">{{ __('Referral Name') }}</label>
                                 <input id="referral" type="text" class="form-control @error('referral') is-invalid @enderror" name="referral_text" value="{{ old('referral') }}">
                                 @error('referral')
@@ -658,14 +658,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert@2.1.2/dist/sweetalert.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    
+
 
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-    
+
 
     <script>
         var loginBtn = document.querySelector('.navbar .btn-outline-light');
@@ -674,7 +674,7 @@
         });
     </script>
 <script>
-     
+
     $(document).on('ready',function(){
         console.log("sss");
     });

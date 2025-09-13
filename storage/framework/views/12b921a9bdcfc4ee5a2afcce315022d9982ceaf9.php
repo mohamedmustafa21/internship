@@ -3,11 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/falogo.png') }}">
+        <link rel="icon" type="image/x-icon" href="<?php echo e(asset('assets/img/falogo.png')); ?>">
 
         <!-- Bootstrap 5 CSS -->
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}" crossorigin="anonymous">
+        <link rel="stylesheet" href="<?php echo e(asset('assets/css/bootstrap.min.css')); ?>" crossorigin="anonymous">
     <!-- خليك في النسخة دي فقط -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -22,50 +22,24 @@
 
         <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
+        <script src="<?php echo e(asset('assets/js/bootstrap.bundle.min.js')); ?>"></script>
 
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-        <title>@yield('title')</title>
+        <title><?php echo $__env->yieldContent('title'); ?></title>
 
     </head>
     <body>
         <!-- Navigation Bar -->
-        {{-- <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #e8ebe9a6; height: 100px;">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="{{ asset('assets/img/logo-1.png') }}" height="80" alt="Logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#whoweare" style="color:darkblue;" >Who We Are</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#canapplay" style="color:darkblue;" >Who Can Apply</a>
-                    </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#register" style="color:darkblue;" >Register Now</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="d-flex align-items-center">
-                <a href="{{route('site.login')}}" class="btn btn-outline-light mr-2" style="background-color: #0dbfd6;width: 123px;height: 45px;padding: 11px;">Login</a>
-            </div>
-        </div>
-    </nav> --}}
 
-    {{-- PC MENU --}}
+
     <header>
         <nav class="navbar">
             <div class="logo">
                 <a href="#">
-                    <img src="{{ asset('assets/img/wlogo-1.png') }}" height="60" alt="Logo">
+                    <img src="<?php echo e(asset('assets/img/wlogo-1.png')); ?>" height="60" alt="Logo">
                 </a>
             </div>
 
@@ -77,7 +51,7 @@
             </ul>
 
             <div class="d-flex align-items-center desktop-only">
-                <a href="{{route('site.login')}}" class="btn" style="background-color: white; width: 123px; height: 45px; padding: 11px; font-weight: 800;">Login <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="<?php echo e(route('site.login')); ?>" class="btn" style="background-color: white; width: 123px; height: 45px; padding: 11px; font-weight: 800;">Login <i class="fa-solid fa-arrow-right"></i></a>
             </div>
 
             <!-- Hamburger icon (mobile only) -->
@@ -95,7 +69,7 @@
                 <li class="nav-item text-white"><a href="#canapplay" class="nav-link text-white">Who Can Apply</a></li>
                 <li class="nav-item text-white"><a href="#register" class="nav-link text-white">Register Now</a></li>
                 <li class="nav-item text-white">
-                    <a href="{{route('site.login')}}" class="nav-link text-white">Login</a>
+                    <a href="<?php echo e(route('site.login')); ?>" class="nav-link text-white">Login</a>
                 </li>
                 <div class="shareArticle">
     <div class="shareSocial">
@@ -110,9 +84,9 @@
             </ul>
         </div>
     </header>
-    {{--  --}}
+
     <style>
-        @media only screen and (min-width: 600px) {
+        @media  only screen and (min-width: 600px) {
    #hamburger{
         display: none !important;
    }
@@ -292,7 +266,7 @@
     }
     }
     </style>
-    {{--  --}}
+
     <!-- ✅ CSS -->
     <style>
 
@@ -398,19 +372,7 @@
 
 
     <!-- side menu start -->
-        {{-- <div class="side-menu-wrap">
-        <a href="#" title="Site Logo" class="side-menu-logo d-block py-3">
-            Site Logo
-        </a>
-        <nav class="side-menu-nav">
-            <!-- auto generated side menu from top header menu -->
-        </nav>
-        <div class="side-menu-close d-flex flex-wrap flex-column align-items-center justify-content-center">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        </div> --}}
+
         <!-- side menu end -->
 
 
@@ -423,28 +385,42 @@
     <div class="modal-dialog">
         <div class="modal-content">
         <div class="modal-header">
-            <img src="{{ asset('assets/img/wlogo-1.png') }}" style="display: block;width: 60%;margin: 0 auto;" height="80" alt="Logo">
+            <img src="<?php echo e(asset('assets/img/wlogo-1.png')); ?>" style="display: block;width: 60%;margin: 0 auto;" height="80" alt="Logo">
         </div>
         <div class="modal-body">
-            <form method="POST" action="{{ route('site.login.submit') }}">
-                @csrf
+            <form method="POST" action="<?php echo e(route('site.login.submit')); ?>">
+                <?php echo csrf_field(); ?>
                 <div class="mb-3">
                     <label for="email" class="form-label">Email address</label>
                     <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" required>
-                    @error('email')
-                    <div class="alert alert-danger">{{ $message }}</div>
-                    @enderror
+                    <?php $__errorArgs = ['email'];
+$__bag = $errors->getBag($__errorArgs[1] ?? 'default');
+if ($__bag->has($__errorArgs[0])) :
+if (isset($message)) { $__messageOriginal = $message; }
+$message = $__bag->first($__errorArgs[0]); ?>
+                    <div class="alert alert-danger"><?php echo e($message); ?></div>
+                    <?php unset($message);
+if (isset($__messageOriginal)) { $message = $__messageOriginal; }
+endif;
+unset($__errorArgs, $__bag); ?>
                 </div>
                 <div class="mb-3">
                     <label for="password" class="form-label">Password</label>
                     <input type="password" class="form-control" id="password" name="password" required>
-                    @error('password')
-                    <div class="alert alert-danger">{{ $message }}</div>
-                    @enderror
+                    <?php $__errorArgs = ['password'];
+$__bag = $errors->getBag($__errorArgs[1] ?? 'default');
+if ($__bag->has($__errorArgs[0])) :
+if (isset($message)) { $__messageOriginal = $message; }
+$message = $__bag->first($__errorArgs[0]); ?>
+                    <div class="alert alert-danger"><?php echo e($message); ?></div>
+                    <?php unset($message);
+if (isset($__messageOriginal)) { $message = $__messageOriginal; }
+endif;
+unset($__errorArgs, $__bag); ?>
                 </div>
                 <button type="submit" class="login-btn btn btn-primary" style="background-color:#1f1759;">Login</button>
             </form>
-                <a href="{{ route('forgetPasswordPage') }}" style="display: block;width: 35%;margin: 0 auto;">Forget password</a>
+                <a href="<?php echo e(route('forgetPasswordPage')); ?>" style="display: block;width: 35%;margin: 0 auto;">Forget password</a>
         </div>
         </div>
     </div>
@@ -459,7 +435,7 @@
             });
         </script>
         <div class="container">
-            @yield('content')
+            <?php echo $__env->yieldContent('content'); ?>
         </div>
 
 
@@ -654,13 +630,13 @@
 
     </style>
 
-    @if (session('error'))
+    <?php if(session('error')): ?>
         <script>
             $(document).ready(function() {
                 Swal.fire({
                     icon: 'error',
                     title: 'error!',
-                    text: '{{ session('error') }}'
+                    text: '<?php echo e(session('error')); ?>'
                 });
             });
 
@@ -775,4 +751,5 @@
 
         <script src="https://kit.fontawesome.com/aaf1c19e6d.js" crossorigin="anonymous"></script>
 
-    @endif
+    <?php endif; ?>
+<?php /**PATH C:\Users\User\Desktop\Elsewedy Intern\internship\resources\views/layouts/app.blade.php ENDPATH**/ ?>

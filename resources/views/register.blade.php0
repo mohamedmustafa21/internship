@@ -52,7 +52,7 @@
         <img src="{{ asset('assets/img/logo-1.png') }}" style="display: block;width: 60%;margin: 0 auto;" height="80" alt="Logo">
       </div>
       <div class="modal-body">
-        <form id="reg" method="POST" action="{{ route('processLogin') }}">
+        <form id="reg" method="POST" action="{{ route('site.login.submit') }}">
             @csrf
             <div class="mb-3">
                 <label for="email" class="form-label">Email address</label>
